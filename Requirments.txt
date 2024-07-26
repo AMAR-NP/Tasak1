@@ -1,0 +1,35 @@
+Instructions to Run the Tkinter Application
+Install Required Libraries
+
+Ensure that the following libraries are installed:
+tkinter (usually included with Python)
+openpyxl
+Install openpyxl using the command:
+bash
+Copy code
+pip install openpyxl
+Prepare Your Python Environment
+
+Open your preferred Python development environment (e.g., IDLE, VSCode, PyCharm) or a Jupyter Notebook.
+Create a New Python File
+
+Create a new Python file (e.g., registration_form.py).
+Copy and Paste the Code
+
+Copy the provided Python code and paste it into the newly created Python file.
+Run the Python File
+
+Execute the Python file by running:
+bash
+Copy code
+python registration_form.py
+Interact with the Application
+
+A Tkinter window will open displaying the registration form.
+Fill in the required details in the form fields.
+Check the box to accept the terms and conditions.
+Click the "Enter Data" button to submit the form.
+The data will be printed in the console and saved to an Excel file located at C:/Users/JOHNS/OneDrive/Desktop/assignment/Next24Tech/data.xlsx.
+Notes
+Ensure you have write permissions to the directory where the Excel file is saved.
+The form will display warnings if the required fields are not filled or if the terms and conditions are not accepted.
